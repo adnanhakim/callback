@@ -28,7 +28,7 @@ A Node.js/Express project for live teacher-student integrated session management
 
    -  UI Designing, Frontend and Dashboard Backend
 
--  Ali Abbas [github.com/rizvialiabbas](https://github.com/rizvialiabbas)
+-  Ali Abbas Rizvi [github.com/rizvialiabbas](https://github.com/rizvialiabbas)
 
    -  Compiler, Notification and Practice Room
 
