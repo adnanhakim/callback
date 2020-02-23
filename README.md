@@ -15,7 +15,7 @@ A Node.js/Express project for live teacher-student integrated session management
 
 1. Frontend developed using vanilla HTML, CSS and JS
 1. Backend developed using Node.js/Express
-1. Data stored in MongoDB
+1. Data is stored in MongoDB Atlas
 1. Live code interaction done using [socket.io](https://www.npmjs.com/package/socket.io)
 1. User session management done using [passport.js](https://www.npmjs.com/package/passport)
 1. C and Python compiler provided by [compilex](https://www.npmjs.com/package/compilex)
