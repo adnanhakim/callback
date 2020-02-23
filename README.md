@@ -18,11 +18,14 @@ A Node.js/Express project for live teacher-student integrated session management
 1. Data stored in MongoDB
 1. Live code interaction done using [socket.io](https://www.npmjs.com/package/socket.io)
 1. User session management done using [passport.js](https://www.npmjs.com/package/passport)
-1. Compiler provided by [compilex](https://www.npmjs.com/package/compilex)
+1. C and Python compiler provided by [compilex](https://www.npmjs.com/package/compilex)
+1. Java compiler provided by [HackerEarth](https://www.hackerearth.com/docs/wiki/developers/v3/)
 1. Editor provided by [Ace](https://ace.c9.io/)
 1. Developed using [goorm IDE](https://ide.goorm.io/)
 
 ## Developers
+
+### DJ Callback
 
 -  Adnan Hakim [github.com/adnanhakim](https://github.com/adnanhakim)
 
@@ -50,47 +53,51 @@ A Node.js/Express project for live teacher-student integrated session management
 
 ## Features
 
--  Teachers can create rooms using sockets
--  Students can join rooms using a password
--  Once student has joined a room, he/she can write code using an editor
--  The student can also compile the code in an online editor
-    - Languages supported are C, Java and Python
--  Teacher can view the code of any student _live_
--  Teacher can also edit the code of any student _live_
--  The student can then post the code in a dashboard for all other students to see
--  Other students can also download the code and run it locally
--  Students can send messages to teachers if they are not online
--  Teachers can view these messages and reply to them
--  Student can also view all his codes in his profile
--  Dashboard also provides statistics to users such as
-   -  No of posts of the day
-   -  No of posts of that user
+-  Login
 
-## Screenshots
+   -  Login id and password are provided manually for students as well as teachers
+   -  Id for students will be their respective sap ids
+   -  Id for teachers will be as per their choice
+   -  Default password is `init@123`
+   -  Once they log in, the passwords can be changed using forgot password feature
 
-### Dashboard
+-  Dashboard
 
-Profile information and statistics on the left, posted codes in the middle and sending offline messages(notifications) to the teachers on the right
+   -  Show details about both students and teachers
+   -  Show statistics about no of posts of the day, total posts etc
+   -  For teachers
+      -  Show all posts by that teacher
+      -  Query posts by respective batches
+   -  For students
+      -  Show all posts by their respective batches
+   -  Students can download any code they require from the dashboard
+   -  Teachers can delete their own posts
+   -  Notification feature to send notifications from student to teacher, teacher to teacher and teacher to student
 
-![Dashboard](https://i.imgur.com/0KBAvEg.png?2)
+-  Create/Join a Room
 
-### Room Selection
+   -  Teachers can create rooms of any of the 3 languages supported, namely `C`, `Java` or `Python`
+   -  Teachers can assign a password to their rooms for added security
+   -  Students can join the respective room using the password
 
-Only teachers can create rooms, and students get information about each room and can join the room by entering the password
+-  Room
 
-![Room Selection](https://i.imgur.com/hQKdkbn.png)
+   -  Question can be added by the teacher which will be displayed to all the students in that room _live_
+   -  Students will get an editor for the respective language of the room
+   -  Students/Teachers can change their respective editor themes to light, dark or black
+   -  Students can write their code and can run it on the application
+   -  The code will be run on the server and needs no software installed on the desktop
+   -  The teacher can view the code of any student at any time _live_
+   -  The teacher can also edit the code of any student _live_ and it will stop the student from editing the code at the same time
+   -  The student can see if the teacher is watching him/her, or if the teacher is editing his/her code
+   -  The student can finish his/her code which will be checked by the teacher
+   -  The student can also download his/her code in the correct format
+   -  At the end of the session, the teacher can post the code of any student which will be visible to all students of that batch
 
-### Room (For the student)
-
-Student can edit, compile, run and post only their own code
-
-![Room(Student)](https://i.imgur.com/Y9n73xH.png)
-
-### Room (For the teacher)
-
-Teacher can view the online students on the left and can view and edit their code live
-
-![Room(Teacher)](https://i.imgur.com/pv8mLb3.png)
+-  Practice Room
+   -  Similar to room, but doesn't require the need of a teacher to create a room
+   -  Anyone can go and code at any time they want
+   -  **Java is not supported in this room**
 
 ## MIT LICENSE
 
