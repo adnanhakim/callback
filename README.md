@@ -34,7 +34,7 @@ A Node.js/Express project for live teacher-student integrated session management
 
 -  Arsh Shaikh [github.com/arshshaikh06](https://github.com/arshshaikh06)
 
-   -  UI Designing, Frontend and Editor
+   -  UI Designing, Frontend, Editor and Java Compiler
 
 -  Bhavesh Singh [github.com/bhaveshsingh0206](https://github.com/bhaveshsingh0206)
 
