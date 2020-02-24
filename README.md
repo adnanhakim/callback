@@ -101,7 +101,7 @@ A Node.js/Express project for live teacher-student integrated session management
 
 ## MIT LICENSE
 
-> Copyright (c) 2020 Team Void
+> Copyright (c) 2020 DJ Callback
 >
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
