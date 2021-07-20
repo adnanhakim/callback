@@ -8,24 +8,9 @@ A Node.js/Express project for live teacher-student integrated session management
 >
 > For more details on the original build, click the link below
 >
-> whiteboard
 > [github.com/whiteboard](https://github.com/bhaveshsingh0206/Whiteboard)
 
-## Technology Stack
-
-1. Frontend developed using vanilla HTML, CSS and JS
-1. Backend developed using Node.js/Express
-1. Data is stored in MongoDB Atlas
-1. Live code interaction done using [socket.io](https://www.npmjs.com/package/socket.io)
-1. User session management done using [passport.js](https://www.npmjs.com/package/passport)
-1. C and Python compiler provided by [compilex](https://www.npmjs.com/package/compilex)
-1. Java compiler provided by [HackerEarth](https://www.hackerearth.com/docs/wiki/developers/v3/)
-1. Editor provided by [Ace](https://ace.c9.io/)
-1. Developed using [goorm IDE](https://ide.goorm.io/)
-
 ## Developers
-
-### DJ Callback
 
 -  Adnan Hakim [github.com/adnanhakim](https://github.com/adnanhakim)
 
@@ -50,6 +35,18 @@ A Node.js/Express project for live teacher-student integrated session management
 -  Hussain Sadriwala [github.com/hussainf46](https://github.com/hussainf46)
 
    -  Forgot Password Module
+
+## Technology Stack
+
+1. Frontend developed using vanilla HTML, CSS and JS
+1. Backend developed using Node.js/Express
+1. Data is stored in MongoDB Atlas
+1. Live code interaction done using [socket.io](https://www.npmjs.com/package/socket.io)
+1. User session management done using [passport.js](https://www.npmjs.com/package/passport)
+1. C and Python compiler provided by [compilex](https://www.npmjs.com/package/compilex)
+1. Java compiler provided by [HackerEarth](https://www.hackerearth.com/docs/wiki/developers/v3/)
+1. Editor provided by [Ace](https://ace.c9.io/)
+1. Developed using [goorm IDE](https://ide.goorm.io/)
 
 ## Features
 
